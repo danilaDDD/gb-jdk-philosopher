@@ -19,7 +19,7 @@ public class Philosopher{
             synchronized (rightFork){
                 if(numberOfMeals < 3) {
                     try {
-                        int time = 10000;
+                        int time = 1000;
                         Thread.sleep(time);
                         numberOfMeals++;
                         System.out.println(String.format("%s already mealed %s ms", name, time));

@@ -6,7 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
         List<Fork> forkList = new ArrayList<>(PHILOSOPHER_COUNT);
-        List<Philosopher> philosophers = new ArrayList<>(PHILOSOPHER_COUNT);
 
         for (int i = 0; i < PHILOSOPHER_COUNT; i++) {
             forkList.add(new Fork());
